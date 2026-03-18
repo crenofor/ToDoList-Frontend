@@ -4,21 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ToDoList</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <a href="index.html"><p>ToDoList</p></a>
+        <a href="index.html"><h1 class="logo">ToDoList</h1></a>
     </header>
+
     <main>
+
         <h1>ToDoList</h1>
         <input type="text" id="taskInput" placeholder="Enter a new task">
-        <input type="button" value="Add Task" onclick="addTask()">
+        <input type="submit" value="Add Task" onclick="addTask()">
+
         <ul id="taskList">
 
         </ul>
+
     </main>
+
     <footer>
+
         <p>@2026 ToDoList. All rights reserved.</p>
+
     </footer>
 </body>
 </html>
